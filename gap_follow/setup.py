@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'reactive_node = gap_follow.scripts.reactive_node:main',
+            'gap_follow_node = gap_follow.scripts.reactive_node:main',
         ],
     },
 )
